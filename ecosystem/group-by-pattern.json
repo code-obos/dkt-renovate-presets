@@ -1,0 +1,55 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "extends": ["packages:linters"],
+      "matchPackagePatterns": ["eslint", "prettier"],
+      "groupName": "lint and formatters"
+    },
+    {
+      "matchPackagePatterns": ["sanity"],
+      "groupName": "sanity packages"
+    },
+    {
+      "matchPackagePatterns": ["^@obosbbl/grunnmuren-", "tailwindcss"],
+      "groupName": "design system packages"
+    },
+    {
+      "matchPackagePatterns": ["^@code-obos"],
+      "groupName": "@code-obos packages"
+    },
+    {
+      "matchPackagePatterns": ["next"],
+      "groupName": "next packages"
+    },
+    {
+      "matchPackagePatterns": ["react"],
+      "groupName": "react packages"
+    },
+    {
+      "matchPackagePatterns": ["react-hook-form", "^hookform"],
+      "groupName": "react-hook-form packages"
+    },
+    {
+      "matchPackagePatterns": ["^headlessui"],
+      "groupName": "headlessui packages"
+    },
+    {
+      "matchPackagePatterns": [
+        "azurerm",
+        "http",
+        "postgresql",
+        "hashicorp/terraform"
+      ],
+      "groupName": "infrastructure packages"
+    },
+    {
+      "matchPackagePatterns": ["typescript"],
+      "groupName": "typescript packages"
+    },
+    {
+      "matchPackagePatterns": ["^@azure"],
+      "groupName": "azure packages"
+    }
+  ]
+}

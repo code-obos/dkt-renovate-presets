@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":semanticCommits",
+    "config:base",
+    "github>code-obos/dkt-renovate-presets//ecosystem/branding",
+    "github>code-obos/dkt-renovate-presets//ecosystem/npm-pkg-github"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>code-obos/dkt-renovate-presets//ecosystem/schedule-limits"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "extends": ["schedule:quarterly"]
+  },
+  "packageRules": [
+    {
+      "depTypeList": [
+        "dependencies",
+        "devDependencies",
+        "peerDependencies",
+        "resolutions"
+      ],
+      "schedule": ["on saturday"]
+    }
+  ]
+}
