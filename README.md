@@ -26,3 +26,19 @@ You can import a specific amount of presets to your own renovate bot config by a
   ]
 }
 ```
+
+## NPM Registry host rules
+
+You will need to do one extra step to get access to our private modules
+
+```json
+"hostRules": [
+    {
+      "matchHost": "https://npm.pkg.github.com/",
+      "hostType": "npm",
+      "encrypted": {
+        "token": "<TOKEN>"
+      }
+    }
+  ]
+```
