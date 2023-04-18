@@ -50,6 +50,10 @@
     {
       "matchPackagePatterns": ["^@azure"],
       "groupName": "azure packages"
+    },
+    {
+      "matchPackageNames": ["^@types"],
+      "groupName": "types packages"
     }
   ]
 }
