@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "extends": ["packages:linters"],
-      "matchPackagePatterns": ["eslint", "prettier", "^@typescript-eslint"],
+      "matchPackagePatterns": ["eslint", "prettier", "^@typescript-eslint", "rome"],
       "groupName": "lint and formatters"
     },
     {
