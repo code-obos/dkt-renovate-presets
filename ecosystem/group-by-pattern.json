@@ -52,7 +52,7 @@
       "groupName": "types packages"
     },
     {
-      "matchPackageNames": ["^@vitejs", "vite"],
+      "matchPackageNames": ["^@vitejs", "^vite"],
       "groupName": "vite packages"
     }
   ]
