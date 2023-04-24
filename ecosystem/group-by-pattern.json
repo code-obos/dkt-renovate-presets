@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "extends": ["packages:linters"],
-      "matchPackagePatterns": ["eslint", "prettier"],
+      "matchPackagePatterns": ["eslint", "prettier", "^@typescript-eslint", "rome"],
       "groupName": "lint and formatters"
     },
     {
@@ -19,11 +19,11 @@
       "groupName": "@code-obos packages"
     },
     {
-      "matchPackagePatterns": ["next"],
+      "matchPackagePatterns": ["next", "^@next"],
       "groupName": "next packages"
     },
     {
-      "matchPackagePatterns": ["react"],
+      "matchPackagePatterns": ["^react"],
       "groupName": "react packages"
     },
     {
@@ -44,16 +44,16 @@
       "groupName": "infrastructure packages"
     },
     {
-      "matchPackagePatterns": ["typescript"],
-      "groupName": "typescript packages"
-    },
-    {
       "matchPackagePatterns": ["^@azure"],
       "groupName": "azure packages"
     },
     {
       "matchPackageNames": ["^@types"],
       "groupName": "types packages"
+    },
+    {
+      "matchPackageNames": ["^@vitejs", "^vite"],
+      "groupName": "vite packages"
     }
   ]
 }
