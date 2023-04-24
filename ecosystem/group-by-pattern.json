@@ -3,7 +3,12 @@
   "packageRules": [
     {
       "extends": ["packages:linters"],
-      "matchPackagePatterns": ["eslint", "prettier", "^@typescript-eslint", "rome"],
+      "matchPackagePatterns": [
+        "eslint",
+        "prettier",
+        "^@typescript-eslint",
+        "rome"
+      ],
       "groupName": "lint and formatters"
     },
     {
@@ -19,7 +24,7 @@
       "groupName": "@code-obos packages"
     },
     {
-      "matchPackagePatterns": ["next", "^@next"],
+      "matchPackagePatterns": ["^next", "^@next"],
       "groupName": "next packages"
     },
     {
