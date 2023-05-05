@@ -53,11 +53,11 @@
       "groupName": "azure packages"
     },
     {
-      "matchPackageNames": ["^@types"],
+      "matchPackagePatterns": ["^@types/"],
       "groupName": "types packages"
     },
     {
-      "matchPackageNames": ["^@vitejs", "^vite"],
+      "matchPackagePatterns": ["^@vitejs", "^vite"],
       "groupName": "vite packages"
     }
   ]
