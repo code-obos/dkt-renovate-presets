@@ -5,7 +5,7 @@
       "extends": ["packages:linters"],
       "matchPackagePatterns": [
         "eslint",
-        "prettier",
+        "^prettier",
         "^@typescript-eslint",
         "rome"
       ],
