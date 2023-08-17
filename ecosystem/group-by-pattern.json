@@ -4,24 +4,29 @@
     {
       "extends": ["packages:linters"],
       "matchPackagePatterns": [
-        "eslint",
+        "^eslint",
         "^prettier",
         "^@typescript-eslint",
+        "^@next/eslint",
         "rome"
       ],
       "groupName": "lint and formatters"
     },
     {
-      "matchPackagePatterns": ["sanity", "^@sanity", "^@portabletext/"],
+      "matchPackagePatterns": ["^sanity", "^@sanity", "^@portabletext/"],
       "groupName": "sanity packages"
     },
     {
-      "matchPackagePatterns": ["^@obosbbl/grunnmuren-", "tailwindcss"],
+      "matchPackagePatterns": ["^@obosbbl/grunnmuren-", "^tailwindcss"],
       "groupName": "design system packages"
     },
     {
       "matchPackagePatterns": ["^@code-obos"],
       "groupName": "@code-obos packages"
+    },
+    {
+      "matchPackagePatterns": ["^@code-obos/sanity"],
+      "groupName": "OBOS sanity packages"
     },
     {
       "matchPackagePatterns": ["^next", "^@next"],
@@ -32,7 +37,7 @@
       "groupName": "react packages"
     },
     {
-      "matchPackagePatterns": ["react-hook-form", "^hookform"],
+      "matchPackagePatterns": ["^react-hook-form", "^hookform"],
       "groupName": "react-hook-form packages"
     },
     {
