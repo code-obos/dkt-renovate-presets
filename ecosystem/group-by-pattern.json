@@ -10,7 +10,8 @@
         "^@next/eslint",
         "rome"
       ],
-      "groupName": "lint and formatters"
+      "groupName": "lint and formatters",
+      "schedule": "every month on the first saturday of the month"
     },
     {
       "matchPackagePatterns": ["^sanity", "^@sanity", "^@portabletext/"],
@@ -59,7 +60,8 @@
     },
     {
       "matchPackagePatterns": ["^@types/"],
-      "groupName": "types packages"
+      "groupName": "types packages",
+      "schedule": "every month on the first saturday of the month"
     },
     {
       "matchPackagePatterns": ["^@vitejs", "^vite"],
