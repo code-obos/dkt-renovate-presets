@@ -11,7 +11,7 @@
         "rome"
       ],
       "groupName": "lint and formatters",
-      "schedule": "every month on the first saturday of the month"
+      "schedule": "on the fist saturday every month"
     },
     {
       "matchPackagePatterns": ["^sanity", "^@sanity", "^@portabletext/"],
@@ -61,7 +61,7 @@
     {
       "matchPackagePatterns": ["^@types/"],
       "groupName": "types packages",
-      "schedule": "every month on the first saturday of the month"
+      "schedule": "on the fist saturday every month"
     },
     {
       "matchPackagePatterns": ["^@vitejs", "^vite"],
