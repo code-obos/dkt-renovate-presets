@@ -3,9 +3,9 @@
   "description": "Recommended rules that aid in hardening security. Which is more important the more you automate things.",
   "packageRules": [
     {
-      "description": "Pin `github-action` digests. As per GitHubs security best practice ()https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#using-third-party-actions",
+      "description": "Pin `github-action` digests. As per GitHubs [security best practice](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#using-third-party-actions)",
       "excludePackagePrefixes": ["actions/", "github/"],
-      "extends": ["schedule:quarterly"],
+      "schedule": ["quarterly"],
       "matchDepTypes": ["action"],
       "pinDigests": true
     }
