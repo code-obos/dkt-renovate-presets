@@ -27,6 +27,10 @@ You can import a specific amount of presets to your own renovate bot config by a
 }
 ```
 
+### Automerge
+
+We have made a config to automerge path dependencies/devdependencies as well. Use this only if you want to
+
 ## NPM Registry host rules
 
 You will need to do one extra step to get access to our private modules. Ask one of the CODEOWNERS for the token
