@@ -5,7 +5,7 @@
     {
       "description": "Pin `github-action` digests. As per GitHubs [security best practice](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#using-third-party-actions)",
       "excludePackagePrefixes": ["actions/", "github/"],
-      "schedule": ["every 3 months on the first saturday of the month"],
+      "schedule": ["every weekend on the 1st through 6th day of the month every 3rd month"],
       "matchDepTypes": ["action"],
       "pinDigests": true
     }

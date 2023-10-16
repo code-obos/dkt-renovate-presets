@@ -4,6 +4,6 @@
   "lockFileMaintenance": {
     "dependencyDashboardApproval": true,
     "enabled": true,
-    "schedule": ["every 3 months on the first saturday of the month"]
+    "schedule": ["every weekend on the 1st through 6th day of the month every 3rd month"]
   }
 }
