@@ -14,7 +14,7 @@
       "schedule": ["on the fist saturday every month"]
     },
     {
-      "matchPackagePatterns": ["^sanity", "^@sanity", "^@portabletext/"],
+      "matchPackagePatterns": ["^sanity", "^@sanity", "^@portabletext/", "^groq"],
       "groupName": "sanity packages"
     },
     {
