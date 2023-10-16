@@ -5,7 +5,7 @@
   ],
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": ["every weekend on the 1st through 6th day of the month every 3rd month"]
+    "schedule": ["on saturday on the first week of the month every 3rd month"]
   },
   "packageRules": [
     {
