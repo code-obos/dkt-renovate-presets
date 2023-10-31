@@ -30,6 +30,14 @@
       "groupName": "OBOS sanity packages"
     },
     {
+      "matchPackagePatterns": [
+        "^@sentry/nextjs",
+        "^@sentry/types",
+        "^@code-obos/sentry-config-dkt"
+      ],
+      "groupName": "Sentry packages"
+    },
+    {
       "matchPackagePatterns": ["^next", "^@next"],
       "groupName": "next packages"
     },
