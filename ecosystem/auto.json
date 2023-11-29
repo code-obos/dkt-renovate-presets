@@ -3,9 +3,9 @@
   "description": "Configures Renovate Bot to follow best practices as determined by Team DKT at OBOS",
   "extends": [
     "github>code-obos/dkt-renovate-presets//ecosystem/base",
+    "github>code-obos/dkt-renovate-presets//ecosystem/schedule",
     "github>code-obos/dkt-renovate-presets//ecosystem/group-by-pattern",
     "github>code-obos/dkt-renovate-presets//ecosystem/labels",
-    "github>code-obos/dkt-renovate-presets//ecosystem/schedule",
     "github>code-obos/dkt-renovate-presets//ecosystem/security",
     "github>code-obos/dkt-renovate-presets//ecosystem/lock-file-maintenance",
     "workarounds:all"

@@ -1,11 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "timezone": "Europe/Oslo",
   "extends": [
     "github>code-obos/dkt-renovate-presets//ecosystem/schedule-limits"
   ],
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": ["on saturday on the first week of the month every 3rd month"]
+    "schedule": [
+      "before 6am on Saturday on the first week of the month every 3rd month"
+    ]
   },
   "packageRules": [
     {
@@ -15,7 +18,7 @@
         "peerDependencies",
         "resolutions"
       ],
-      "schedule": ["on saturday"]
+      "schedule": ["before 6am on Saturday"]
     }
   ]
 }
