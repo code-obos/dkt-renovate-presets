@@ -7,6 +7,7 @@
     "github>code-obos/dkt-renovate-presets//ecosystem/labels",
     "github>code-obos/dkt-renovate-presets//ecosystem/security",
     "github>code-obos/dkt-renovate-presets//ecosystem/schedule",
+    "github>code-obos/dkt-renovate-presets//ecosystem/schedule-specific",
     "github>code-obos/dkt-renovate-presets//ecosystem/lock-file-maintenance",
     "workarounds:all"
   ]
