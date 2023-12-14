@@ -47,17 +47,6 @@
       "groupName": "headlessui packages"
     },
     {
-      "matchPackagePatterns": [
-        "azurerm",
-        "http",
-        "postgresql",
-        "^hashicorp/terraform",
-        "random"
-      ],
-      "groupName": "infrastructure packages",
-      "schedule": ["before 6am on Saturday"]
-    },
-    {
       "matchPackagePatterns": ["^@azure"],
       "groupName": "azure packages"
     },
