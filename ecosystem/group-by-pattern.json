@@ -53,6 +53,10 @@
     {
       "matchPackagePatterns": ["^@vitejs", "^vite"],
       "groupName": "vite packages"
+    },
+    {
+      "matchPackagePatterns": ["^actions"],
+      "groupName": "GHA actions"
     }
   ]
 }
