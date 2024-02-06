@@ -11,6 +11,10 @@
       "groupName": "sanity packages"
     },
     {
+      "matchPackagePatterns": ["^@happy-dom/", "^happy-dom"],
+      "groupName": "happy-dom packages"
+    },
+    {
       "matchPackagePatterns": ["^@obosbbl/grunnmuren-", "^tailwindcss"],
       "groupName": "design system packages"
     },
