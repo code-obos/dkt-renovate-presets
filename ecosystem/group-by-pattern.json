@@ -11,6 +11,10 @@
       "groupName": "sanity packages"
     },
     {
+      "matchPackagePatterns": ["^@react-aria/", "^react-aria"],
+      "groupName": "react-aria packages"
+    },
+    {
       "matchPackagePatterns": ["^@happy-dom/", "^happy-dom"],
       "groupName": "happy-dom packages"
     },
