@@ -12,8 +12,13 @@
     },
     {
       "matchPackagePatterns": ["^@obosbbl/grunnmuren-", "^tailwindcss"],
-      "groupName": "design system packages",
-      "allowedVersions": "!/2\\.0\\.0/"
+      "groupName": "design system packages"
+    },
+    {
+      "matchPackageNames": [
+        "@obosbbl/grunnmuren-tailwind",
+        "@obosbbl/grunnmuren-react"
+      ]
     },
     {
       "matchPackagePatterns": ["^@code-obos"],
