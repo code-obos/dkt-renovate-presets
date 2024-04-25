@@ -18,7 +18,8 @@
       "matchPackageNames": [
         "@obosbbl/grunnmuren-tailwind",
         "@obosbbl/grunnmuren-react"
-      ]
+      ],
+      "allowedVersions": "!/2\\.0\\.0/"
     },
     {
       "matchPackagePatterns": ["^@code-obos"],
