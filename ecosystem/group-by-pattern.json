@@ -11,7 +11,7 @@
       "groupName": "sanity packages"
     },
     {
-      "matchPackagePatterns": ["^@react-aria/", "^react-aria"],
+      "matchPackagePatterns": ["^@react-aria/", "react-aria-components"],
       "groupName": "react-aria packages"
     },
     {
