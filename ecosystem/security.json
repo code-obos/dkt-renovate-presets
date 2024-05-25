@@ -3,11 +3,12 @@
   "description": "Recommended rules that aid in hardening security. Which is more important the more you automate things.",
   "packageRules": [
     {
+      "extends": ["helpers:pinGitHubActionDigests"],
       "description": "Pin `github-action` digests. As per GitHubs [security best practice](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#using-third-party-actions)",
       "excludePackagePrefixes": ["actions/", "github/"],
-      "schedule": ["on saturday on the first week of the month every 3rd month"],
-      "matchDepTypes": ["action"],
-      "pinDigests": true
+      "extractVersion": "^(?<version>v\\d+\\.\\d+\\.\\d+)$",
+      "versioning": "regex:^v?(?<major>\\d+)(\\.(?<minor>\\d+)\\.(?<patch>\\d+))?$",
+      "schedule": ["on saturday on the first week of the month every 3rd month"]
     }
   ]
 }
