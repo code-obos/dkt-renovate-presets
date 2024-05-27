@@ -11,10 +11,9 @@
       "groupName": "sanity packages"
     },
     {
-      "matchPackageNames": [
-        "@react-aria/optimize-locales-plugin",
-        "@react-aria/utils",
-        "react-aria-components"
+      "matchPackagePatterns": [
+        "^@react-aria",
+        "^react-aria"
       ],
       "groupName": "react-aria packages"
     },
@@ -55,6 +54,7 @@
     },
     {
       "matchPackagePatterns": ["^react"],
+      "excludePackageNames": ["react-aria-components"],
       "groupName": "react packages"
     },
     {
