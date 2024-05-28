@@ -11,11 +11,12 @@
       "groupName": "sanity packages"
     },
     {
-      "matchPackageNames": [
-        "@react-aria/optimize-locales-plugin",
-        "@react-aria/utils",
-        "react-aria-components"
-      ],
+      "matchPackagePatterns": ["^react"],
+      "excludePackagePatterns": ["^react-aria", "^react-hook"],
+      "groupName": "react packages"
+    },
+    {
+      "matchPackagePatterns": ["^@react-aria", "^react-aria"],
       "groupName": "react-aria packages"
     },
     {
@@ -54,11 +55,7 @@
       "groupName": "next packages"
     },
     {
-      "matchPackagePatterns": ["^react"],
-      "groupName": "react packages"
-    },
-    {
-      "matchPackagePatterns": ["^react-hook-form", "^hookform"],
+      "matchPackagePatterns": ["^react-hook-form", "^@hookform"],
       "groupName": "react-hook-form packages"
     },
     {
