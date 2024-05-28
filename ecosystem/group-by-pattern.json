@@ -11,10 +11,12 @@
       "groupName": "sanity packages"
     },
     {
-      "matchPackagePatterns": [
-        "^@react-aria",
-        "^react-aria"
-      ],
+      "matchPackagePatterns": ["^react"],
+      "excludePackagePatterns": ["^react-aria", "^react-hook"],
+      "groupName": "react packages"
+    },
+    {
+      "matchPackagePatterns": ["^@react-aria", "^react-aria"],
       "groupName": "react-aria packages"
     },
     {
@@ -53,12 +55,7 @@
       "groupName": "next packages"
     },
     {
-      "matchPackagePatterns": ["^react"],
-      "excludePackageNames": ["react-aria-components"],
-      "groupName": "react packages"
-    },
-    {
-      "matchPackagePatterns": ["^react-hook-form", "^hookform"],
+      "matchPackagePatterns": ["^react-hook-form", "^@hookform"],
       "groupName": "react-hook-form packages"
     },
     {
