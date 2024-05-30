@@ -6,7 +6,8 @@
         "^sanity",
         "^@sanity",
         "^@portabletext/",
-        "^groq"
+        "^groq",
+        "^next-sanity"
       ],
       "groupName": "sanity packages"
     },
@@ -52,6 +53,7 @@
     },
     {
       "matchPackagePatterns": ["^next", "^@next"],
+      "excludeDepNames": ["next-sanity"],
       "groupName": "next packages"
     },
     {
