@@ -11,7 +11,8 @@
         "devDependencies",
         "peerDependencies",
         "resolutions",
-        "action"
+        "action",
+        "final"
       ],
       "schedule": ["before 6am on Saturday"]
     }
