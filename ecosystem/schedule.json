@@ -12,7 +12,8 @@
         "peerDependencies",
         "resolutions",
         "action",
-        "final"
+        "final",
+        "required_provider"
       ],
       "schedule": ["before 6am on Saturday"]
     }
