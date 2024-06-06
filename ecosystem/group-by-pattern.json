@@ -75,6 +75,11 @@
     {
       "matchPackagePatterns": ["^actions"],
       "groupName": "GHA actions"
+    },
+    {
+      "matchPackageNames": ["hono", "honox"],
+      "matchPackagePrefixes": ["@hono"],
+      "groupName": "Hono"
     }
   ]
 }
