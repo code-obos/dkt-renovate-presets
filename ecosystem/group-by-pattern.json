@@ -80,6 +80,11 @@
       "matchPackageNames": ["hono", "honox"],
       "matchPackagePrefixes": ["@hono"],
       "groupName": "Hono"
+    },
+    {
+      "matchPackageNames": ["^docker"],
+      "matchDepTypes": "action",
+      "groupName": "Docker packages"
     }
   ]
 }
