@@ -9,6 +9,7 @@
     "github>code-obos/dkt-renovate-presets//ecosystem/schedule",
     "github>code-obos/dkt-renovate-presets//ecosystem/schedule-specific",
     "github>code-obos/dkt-renovate-presets//ecosystem/lock-file-maintenance",
+    "github>code-obos/dkt-renovate-presets//ecosystem/host-rules",
     "workarounds:all"
   ]
 }
