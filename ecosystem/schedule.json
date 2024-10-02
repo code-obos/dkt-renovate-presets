@@ -13,7 +13,10 @@
         "resolutions",
         "action",
         "final",
-        "required_provider"
+        "required_provider",
+        "packageManager",
+        "volta",
+        "engines"
       ],
       "schedule": ["before 6am on Saturday"]
     }
