@@ -17,7 +17,11 @@
       "groupName": "react packages"
     },
     {
-      "matchPackagePatterns": ["^@react-aria", "^react-aria"],
+      "matchPackagePatterns": [
+        "^@react-aria",
+        "^react-aria",
+        "^tailwindcss-react-aria"
+      ],
       "groupName": "react-aria packages"
     },
     {
