@@ -51,6 +51,7 @@
       "matchPackagePatterns": [
         "^@sentry/nextjs",
         "^@sentry/types",
+        "^@sentry/core",
         "^@code-obos/sentry-config-dkt"
       ],
       "groupName": "Sentry packages"
