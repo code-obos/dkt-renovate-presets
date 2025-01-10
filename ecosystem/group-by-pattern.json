@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "^sanity",
         "^@sanity",
         "^@portabletext/",
@@ -12,12 +12,12 @@
       "groupName": "sanity packages"
     },
     {
-      "matchPackagePatterns": ["^react"],
+      "matchPackageNames": ["^react"],
       "excludePackagePatterns": ["^react-aria", "^react-hook"],
       "groupName": "react packages"
     },
     {
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "^@react-aria",
         "^react-aria",
         "^tailwindcss-react-aria"
@@ -25,11 +25,16 @@
       "groupName": "react-aria packages"
     },
     {
-      "matchPackagePatterns": ["^@happy-dom/", "^happy-dom"],
+      "matchPackageNames": ["^@happy-dom/", "^happy-dom"],
       "groupName": "happy-dom packages"
     },
     {
-      "matchPackagePatterns": ["^@obosbbl/grunnmuren-", "^tailwindcss"],
+      "matchPackageNames": [
+        "^@obosbbl/grunnmuren-",
+        "^tailwindcss",
+        "^tailwind",
+        "^postcss"
+      ],
       "groupName": "design system packages"
     },
     {
@@ -40,46 +45,49 @@
       "allowedVersions": "!/2\\.0\\.0/"
     },
     {
-      "matchPackagePatterns": ["^@code-obos"],
+      "matchPackageNames": ["^@code-obos"],
       "groupName": "@code-obos packages"
     },
     {
-      "matchPackagePatterns": ["^@code-obos/sanity"],
+      "matchPackageNames": ["^@code-obos/sanity"],
       "groupName": "OBOS sanity packages"
     },
     {
-      "matchPackagePatterns": [
-        "^@sentry/nextjs",
-        "^@sentry/types",
-        "^@sentry/core",
-        "^@code-obos/sentry-config-dkt"
-      ],
+      "matchPackageNames": ["^@sentry", "^@code-obos/sentry-config-dkt"],
       "groupName": "Sentry packages"
     },
     {
-      "matchPackagePatterns": ["^next", "^@next"],
+      "matchPackageNames": ["^next", "^@next"],
       "excludeDepNames": ["next-sanity"],
       "groupName": "next packages"
     },
     {
-      "matchPackagePatterns": ["^react-hook-form", "^@hookform"],
+      "matchPackageNames": ["^react-hook-form", "^@hookform"],
       "groupName": "react-hook-form packages"
     },
     {
-      "matchPackagePatterns": ["^headlessui"],
+      "matchPackageNames": ["^headlessui"],
       "groupName": "headlessui packages"
     },
     {
-      "matchPackagePatterns": ["^@azure"],
+      "matchPackageNames": ["^@azure"],
       "groupName": "azure packages"
     },
     {
-      "matchPackagePatterns": ["^@vitejs", "^vite"],
+      "matchPackageNames": ["^@vitejs", "^vite"],
       "groupName": "vite packages"
     },
     {
-      "matchPackagePatterns": ["^actions"],
+      "matchPackageNames": ["^vitest"],
+      "groupName": "vitest packages"
+    },
+    {
+      "matchPackageNames": ["^actions"],
       "groupName": "GHA actions"
+    },
+    {
+      "matchPackageNames": ["^docker/"],
+      "groupName": "Docker packages"
     },
     {
       "matchPackageNames": ["hono", "honox"],
