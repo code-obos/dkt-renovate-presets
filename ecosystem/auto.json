@@ -10,6 +10,7 @@
     "github>code-obos/dkt-renovate-presets//ecosystem/schedule-specific",
     "github>code-obos/dkt-renovate-presets//ecosystem/lock-file-maintenance",
     "github>code-obos/dkt-renovate-presets//ecosystem/host-rules",
+    "github>code-obos/dkt-renovate-presets//ecosystem/docker-image-azurecr",
     "workarounds:all"
   ]
 }
