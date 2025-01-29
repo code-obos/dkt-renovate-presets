@@ -5,6 +5,12 @@
       "matchHost": "https://npm.pkg.github.com/",
       "hostType": "npm",
       "token": "{{ secrets.RENOVATE_GITHUB_REGISTRY_TOKEN }}"
+    },
+    {
+      "matchHost": "dktprodacr.azurecr.io",
+      "hostType": "docker",
+      "username": "renovate",
+      "password": "{{ secrets.RENOVATE_AZURE_REGISTRY_TOKEN }}"
     }
   ]
 }

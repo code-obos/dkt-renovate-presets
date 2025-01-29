@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "dktprodacr.azurecr.io/*"
+      ],
+      "versioning": "semver",
+      "registryUrls": [
+        "https://dktprodacr.azurecr.io"
+      ]
+    }
+  ]
+}
