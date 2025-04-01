@@ -13,7 +13,7 @@
     },
     {
       "matchPackagePatterns": ["^react"],
-      "excludePackagePatterns": ["^react-aria", "^react-hook"],
+      "excludePackagePatterns": ["^react-aria", "^react-hook", "^react-native"],
       "groupName": "react packages"
     },
     {
