@@ -19,6 +19,7 @@
     {
       "matchPackagePatterns": [
         "^@react-aria",
+        "^react-stately",
         "^react-aria",
         "^tailwindcss-react-aria"
       ],
