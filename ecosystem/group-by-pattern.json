@@ -30,7 +30,12 @@
       "groupName": "happy-dom packages"
     },
     {
-      "matchPackagePatterns": ["^@obosbbl/grunnmuren-", "^tailwindcss"],
+      "matchPackagePatterns": [
+        "^@obosbbl/grunnmuren-",
+        "^tailwindcss",
+        "^@tailwindcss",
+        "^postcss"
+      ],
       "groupName": "design system packages"
     },
     {
