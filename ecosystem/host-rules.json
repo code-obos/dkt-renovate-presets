@@ -11,6 +11,11 @@
       "hostType": "docker",
       "username": "renovate",
       "password": "{{ secrets.RENOVATE_AZURE_REGISTRY_TOKEN }}"
+    },
+    {
+      "matchHost": "spacelift.io",
+      "hostType": "terraform",
+      "token": "{{ secrets.RENOVATE_SPACELIFT_REGISTRY_TOKEN }}"
     }
   ]
 }
