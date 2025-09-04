@@ -14,7 +14,7 @@
     },
     {
       "matchHost": "spacelift.io",
-      "hostType": "terraform",
+      "hostType": "terraform-module",
       "token": "{{ secrets.RENOVATE_SPACELIFT_REGISTRY_TOKEN }}"
     }
   ]
