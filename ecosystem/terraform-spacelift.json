@@ -2,5 +2,11 @@
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"terraform": {
 		"enabled": true
-	}
+	},
+	"packageRules": [
+		{
+			"matchDatasources": ["terraform-module"],
+			"registryUrls": ["https://app.spacelift.io"]
+		}
+	]
 }

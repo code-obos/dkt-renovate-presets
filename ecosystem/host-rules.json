@@ -13,7 +13,7 @@
       "password": "{{ secrets.RENOVATE_AZURE_REGISTRY_TOKEN }}"
     },
     {
-      "matchHost": "spacelift.io",
+      "matchHost": "app.spacelift.io",
       "hostType": "terraform-module",
       "token": "{{ secrets.RENOVATE_SPACELIFT_REGISTRY_TOKEN }}"
     }
