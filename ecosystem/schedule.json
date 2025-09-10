@@ -6,19 +6,7 @@
   ],
   "packageRules": [
     {
-      "matchDepTypes": [
-        "dependencies",
-        "devDependencies",
-        "peerDependencies",
-        "resolutions",
-        "action",
-        "final",
-        "required_provider",
-        "packageManager",
-        "volta",
-        "engines",
-        "uses-with"
-      ],
+      "matchDepTypes": ["*"],
       "schedule": ["before 6am on Saturday"]
     }
   ]
