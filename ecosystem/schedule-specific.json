@@ -6,7 +6,7 @@
   ],
   "packageRules": [
     {
-      "extends": ["packages:linters"],
+      "extends": ["packages:linters", "customManagers:biomeVersions"],
       "matchPackagePatterns": [
         "^eslint",
         "^prettier",
@@ -25,7 +25,7 @@
     },
     {
       "matchPackagePatterns": [
-        "azurerm",
+        "azurerm",       
         "http",
         "postgresql",
         "^hashicorp/terraform",
