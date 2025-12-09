@@ -61,6 +61,10 @@
       "groupName": "next packages"
     },
     {
+      "matchPackagePatterns": ["^@amplitude"],
+      "groupName": "Amplitude packages"
+    },
+    {
       "matchPackagePatterns": ["^react-hook-form", "^@hookform"],
       "groupName": "react-hook-form packages"
     },
