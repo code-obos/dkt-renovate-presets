@@ -48,6 +48,10 @@
       "groupName": "OBOS sanity packages"
     },
     {
+      "matchPackagePatterns": ["^@t3-oss"],
+      "groupName": "T3-oss/env packages"
+    },
+    {
       "matchPackagePatterns": [
         "^@sentry/nextjs",
         "^@sentry/types",
