@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Wait 3 days before updating a package",
+  "packageRules": [
+    {
+      "description": "Exclude internal packages from minimumReleaseAge",
+      "matchPackageNames": [
+        "/^@code-obos\\//",
+        "/^@obosbbl\\//"
+      ],
+      "minimumReleaseAge": "0 days"
+    }
+  ],
+  "minimumReleaseAge": "3 days"
+}
