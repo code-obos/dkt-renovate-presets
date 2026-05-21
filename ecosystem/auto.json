@@ -12,6 +12,7 @@
     "github>code-obos/dkt-renovate-presets//ecosystem/host-rules",
     "github>code-obos/dkt-renovate-presets//ecosystem/docker-image-azurecr",
     "github>code-obos/dkt-renovate-presets//ecosystem/terraform-spacelift",
+    "github>code-obos/dkt-renovate-presets//ecosystem/min-age-3-days",
     "workarounds:all"
   ]
 }
