@@ -1,10 +1,5 @@
 # DKT Renovate Presets
 
-> [!WARNING]
-> **Deprecated.** This repository has been merged into [code-obos/renovate-presets](https://github.com/code-obos/renovate-presets). The default preset here now just extends `github>code-obos/renovate-presets`, so repos using `github>code-obos/dkt-renovate-presets` already get the new config.
->
-> Replace `github>code-obos/dkt-renovate-presets` with `github>code-obos/renovate-presets` in your `renovate.json`. See the [migration guide](https://github.com/code-obos/renovate-presets#migrating-from-dkt-renovate-presets) for what changes. The presets in `ecosystem/` are no longer maintained and will be removed when this repository is archived.
-
 Heavy influenced by [Sanity's own renovate presets](https://github.com/sanity-io/renovate-presets)
 
 ## How to use
