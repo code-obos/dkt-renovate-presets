@@ -1,6 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Deprecated: dkt-renovate-presets has been merged into code-obos/renovate-presets. Extend github>code-obos/renovate-presets directly instead.",
-  "extends": ["github>code-obos/renovate-presets"],
+  "extends": ["github>code-obos/dkt-renovate-presets//ecosystem/auto"],
   "configMigration": true
 }
