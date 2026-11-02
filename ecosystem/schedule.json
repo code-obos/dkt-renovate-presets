@@ -4,14 +4,5 @@
   "extends": [
     "github>code-obos/dkt-renovate-presets//ecosystem/schedule-limits"
   ],
-  "packageRules": [
-    {
-      "matchDepTypes": [
-        "*"
-      ],
-      "schedule": [
-        "before 6am on Saturday"
-      ]
-    }
-  ]
+  "schedule": ["before 6am on Saturday"]
 }

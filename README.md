@@ -19,7 +19,6 @@ You can import a specific amount of presets to your own renovate bot config by a
   "extends": [
     "github>code-obos/dkt-renovate-presets//ecosystem/branding",
     "github>code-obos/dkt-renovate-presets//ecosystem/npm-pkg-github"
-    "github>code-obos/dkt-renovate-presets//ecosystem/group-by-pattern",
     "github>code-obos/dkt-renovate-presets//ecosystem/labels",
     "github>code-obos/dkt-renovate-presets//ecosystem/schedule",
     "github>code-obos/dkt-renovate-presets//ecosystem/security",
