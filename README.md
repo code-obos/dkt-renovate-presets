@@ -28,7 +28,7 @@ You can import a specific amount of presets to your own renovate bot config by a
 
 ### Automerge
 
-We have made a config to automerge path dependencies/devdependencies as well. Use this only if you want to automerge patches every week.
+We have made a config to automerge minor and patch dependencies as well. Use this only if you want to automerge minors and patches every week.
 
 Renovate won't automerge if branch protection is on, and it needs at least 1 approval to merge. Give renovate access to automerge without approvals if you need automerge to work
 
