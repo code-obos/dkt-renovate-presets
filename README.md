@@ -30,7 +30,7 @@ You can import a specific amount of presets to your own renovate bot config by a
 
 We have made a config to automerge minor and patch dependencies as well. Use this only if you want to automerge minors and patches every week.
 
-Renovate won't automerge if branch protection is on, and it needs at least 1 approval to merge. If the Renovate GitHub app should automerge, add it to the bypass list of the ruleset in the repo settings (Settings → Rules → Rulesets → Bypass list).
+Renovate won't automerge if branch protection is on, and it needs at least 1 approval to merge. If the Renovate GitHub app should automerge, add it to the bypass list of the ruleset in the repo settings (Settings → Rules → Rulesets → Bypass list). The Renovate app ID is `2740`.
 
 ## NPM Registry host rules
 
